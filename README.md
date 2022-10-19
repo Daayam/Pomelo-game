@@ -6,6 +6,15 @@
 ## What's the point
 The goal of this project has been to create a text-based game to experiment with and apply the concept of objects and classes. Another goal was to start using Github, and to build a portfolio of projects.
 
+## Table of Contents
+- [General Info](#general-info)
+- [Features](#features)
+- [Launch](#launch)
+- [Technology](#technology)
+- [Status](#status)
+- [Further Improvement](#further-improvement)
+- [Additional Info](#additional-info)
+
 ## General Info
 This is a turn based dueling game with a magical theme. The game is entirely text based and can be played directly from the terminal window. Players start the game by making their own character and choosing a wand. The player then learns spells and duels with a non playable character (npc). The first character to lose all their health loses the duel. 
 
