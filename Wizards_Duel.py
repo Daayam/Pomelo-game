@@ -1,5 +1,5 @@
 # Wizards Duel
-# This is a test
+# This is a test 2
 from time import sleep
 from random import choice, choices, randint
 import os
