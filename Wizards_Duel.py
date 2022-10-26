@@ -1,5 +1,5 @@
 # Wizards Duel
-# is this uploading to the main branch?
+# 
 from time import sleep
 from random import choice, choices, randint
 import os
@@ -75,3 +75,40 @@ class Character:
             chosen_wand.loyalty += 15
 
 
+# ---------------------------------------------------------------------
+# Game Mechanics
+
+
+
+# ---------------------------------------------------------------------
+# Dialogue and Scenes
+
+def starting_the_game():
+    print("This is Hogwarts Wizarding Duel— a harry potter themed game for personal use. It is an object based text game. You will be able to duel with unique characters, spells and potions. You can also play the game in story mode (future update) or in Duelling mode. Over time more updates may be added.")
+    sleep(1)
+    print("please wait")
+    sleep(6)
+    print("While playing this game, you may need to press enter to continue.")
+    input("Press enter to continue")
+    sleep(1)
+    print("Sometimes you may have to wait a few seconds before pressing enter.")
+    sleep(3)
+    input("Press enter to start the game")
+    clear ()
+
+
+
+#----------------------------------------------------------------------
+# Supplementary code (like generating instances of objects)
+
+
+
+#----------------------------------------------------------------------
+# Main Code
+# Initializing game
+
+starting_the_game()
+my_name = input("What is your name? ")
+sleep(2)
+print("Hello {}! Welcome to Hogwarts. Before we can begin, I need some more information. ".format(my_name))
+sleep(2)
