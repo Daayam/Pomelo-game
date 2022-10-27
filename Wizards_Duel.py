@@ -106,6 +106,9 @@ def run_tutorial():
     print("There are 4 houses at Hogwarts: Gryffindor, Hufflepuff, Ravenclaw, and Slytherin. Each house will also have a secret skill based on their values. Gryffindor values bravery and strength. Hufflepuff values justice and loyalty. Ravenclaw values wit and learning. Slytherin values ambition and cunning. The house you pick will have an impact on your gameplay experience.")
     sleep(2)
     input("")
+    print("After creating your character, you must obtain a wand. Your wand will have a wooden body, a magical core, a certain ammount of power, and some loyalty for you. {name}, they say the wand chooses the wizard. However, Ollivander has a surplus of wands in stock and you will be able to ask for your preferred core. Ollivander will be able to give you a wand with either Dragon Heartstring or Unicorn Hair. Dragon Heartstring wands tend to have more power, and Unicorn hair wands tend to be more loyal. Unfortunately, Phoenix feather wands are currently out of stock.".format(name = my_name))
+    sleep(3)
+    input("")
 
 
 #----------------------------------------------------------------------
