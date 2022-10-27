@@ -109,10 +109,6 @@ def run_tutorial():
     print("After creating your character, you must obtain a wand. Your wand will have a wooden body, a magical core, a certain ammount of power, and some loyalty for you. {name}, they say the wand chooses the wizard. However, Ollivander has a surplus of wands in stock and you will be able to ask for your preferred core. Ollivander will be able to give you a wand with either Dragon Heartstring or Unicorn Hair. Dragon Heartstring wands tend to have more power, and Unicorn hair wands tend to be more loyal. Unfortunately, Phoenix feather wands are currently out of stock.".format(name = my_name))
     sleep(3)
     input("")
-    print("When dueling, the objective is to beat the opponent, and the duel ends when a character loses all their health. On your turn, you will be able to cast a spell, or use a potion*. Each spell has a name, a power value, a type, an effect and a probability of successfully casting. *You cannot use potions in 2nd year.")
-    sleep(3)
-    inout("")
-    
 
 
 #----------------------------------------------------------------------
