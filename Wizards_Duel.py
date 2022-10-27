@@ -112,7 +112,10 @@ def run_tutorial():
     print("When dueling, the objective is to beat the opponent, and the duel ends when a character loses all their health. On your turn, you will be able to cast a spell, or use a potion*. Each spell has a name, a power value, a type, an effect and a probability of successfully casting. *You cannot use potions in 2nd year.")
     sleep(3)
     input("")
-
+    print("Your spells will also depend on your wand. The amount of damage dealt will depend on the power of the spell and the STRENGTH of your wand. As you use a spell, you will start to MASTER it and get better at casting it. The more loyalty your wand has, the more likely it is to listen to you. As you win duels, your LOYALTY will increase. In higher years, you will have to be more strategic, and will have to use every tool to your ADVANTAGE.")
+    sleep(2)
+    input("")
+    print("\n", "\n", "\n") # adds 3 new lines
 
 #----------------------------------------------------------------------
 # Supplementary code (like generating instances of objects)
