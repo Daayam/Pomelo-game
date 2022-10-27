@@ -96,6 +96,13 @@ def starting_the_game():
     input("Press enter to start the game")
     clear ()
 
+def run_tutorial():
+    print("This is a turn based text game where you battle an opponent in a wizarding duel. Before you start {name}, you will have to create a character and a wand. When creating your character, you will be able to choose your year, and house.".format(name = my_name))
+    sleep(2)
+    input("")
+    print("Your year corresponds to the difficulty setting of the game. In 2nd year, you will have basic functionality and limited spells. It is a great way to understand the mechanics of duelling. In 3rd year, you will be able to play the game with full functionality and many spells. It will give you a balanced experience. In 4th year, you will have access to full functionality, increased difficulty, and even more spells.")
+    sleep(2)
+    input("")
 
 
 #----------------------------------------------------------------------
