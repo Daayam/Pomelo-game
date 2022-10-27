@@ -131,3 +131,15 @@ my_name = input("What is your name? ")
 sleep(2)
 print("Hello {}! Welcome to Hogwarts. Before we can begin, I need some more information. ".format(my_name))
 sleep(2)
+while True: # Run tutorial
+    tutorial_input = ("Have you played this game before? ").title()
+    if tutorial_input == "Yes": # This skips the tutorial
+        break
+    if tutorial_input == "No":
+        sleep(1)
+        run_tutorial()
+        break
+    else:
+        print("I did not understand that. Please enter Yes or No")
+        continue
+
