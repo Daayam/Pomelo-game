@@ -103,6 +103,9 @@ def run_tutorial():
     print("Your year corresponds to the difficulty setting of the game. In 2nd year, you will have basic functionality and limited spells. It is a great way to understand the mechanics of duelling. In 3rd year, you will be able to play the game with full functionality and many spells. It will give you a balanced experience. In 4th year, you will have access to full functionality, increased difficulty, and even more spells.")
     sleep(2)
     input("")
+    print("There are 4 houses at Hogwarts: Gryffindor, Hufflepuff, Ravenclaw, and Slytherin. Each house will also have a secret skill based on their values. Gryffindor values bravery and strength. Hufflepuff values justice and loyalty. Ravenclaw values wit and learning. Slytherin values ambition and cunning. The house you pick will have an impact on your gameplay experience.")
+    sleep(2)
+    input("")
 
 
 #----------------------------------------------------------------------
