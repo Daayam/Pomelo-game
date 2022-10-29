@@ -175,4 +175,8 @@ while True: # Choose house and year
         print("please check your spelling and try again.")
         continue
 
+my_character = Character(my_name, chosen_house, chosen_year)
+print("{name}, you are a {house} in year {year}.".format(name = my_name, house = chosen_house, year = chosen_year))
+sleep(2)
+input("")
     
