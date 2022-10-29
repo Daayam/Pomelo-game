@@ -206,3 +206,5 @@ input("")
 print("Now that we have enough information, we can proceed.")
 sleep(2)
 input("")
+
+my_rival = Character("Kaminari", my_character.house, my_character.year, health = 115)
