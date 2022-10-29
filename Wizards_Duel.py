@@ -189,3 +189,5 @@ while True: #Choose wand core
     else:
         print("Dragon Heartstring or Unicorn Hair. Please check your spelling and try again.")
         continue
+my_wand = Wand(wand_wood, chosen_core)
+
