@@ -120,7 +120,14 @@ def run_tutorial():
 #----------------------------------------------------------------------
 # Supplementary code (like generating instances of objects)
 
+flipendo = Spell("Flipendo", 20, "offensive", "A basic dueling spell that knocks the target backwards.", 0.8)
+protego = Spell("Protego", 20, "shield", "A basic sheild charm used to deflect spells.", 0.8)
+stupefy = Spell("Stupefy", 20, "stun", "A basic duelling spell that stuns the opponent.", 0.6)
+glacius = Spell("Glacius", 30, "status", "A spell that inflicts frost damage.", 0.5)
 
+second_year_spells = [flipendo, protego, stupefy, glacius] #spells usable in second year
+third_year_spells = second_year_spells #3rd and 4th year support will be added in a future update
+fourth_year_spells = second_year_spells
 
 #----------------------------------------------------------------------
 # Main Code
