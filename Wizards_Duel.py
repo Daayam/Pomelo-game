@@ -78,6 +78,19 @@ class Character:
 # ---------------------------------------------------------------------
 # Game Mechanics
 
+def generate_wand(rand_user): #chooses attributes of wand
+    if rand_user.house == "Gryffindor":
+        wood = "Cypress" #brave, bold, self-sacrificing
+    if rand_user == "Hufflepuff":
+        wood = "Rowan" #For the clear headed and pure hearted
+    if rand_user == "Ravenclaw":
+        wood = "Beech" #Not for the narrow minded and intolerant
+    if rand_user == "Slytherin":
+        wood = "Vine" #
+    core_types = ["Dragon Heartstring", "Unicorn Hair"]
+    core = choice(core_types)
+    return [wood, core]
+
 
 
 # ---------------------------------------------------------------------
