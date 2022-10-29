@@ -225,3 +225,10 @@ rival_wand_attributes = generate_wand(my_rival) # saving wand attributes to vari
 my_rival_wand = Wand(rival_wand_attributes[0], rival_wand_attributes[1])
 my_rival.bond_wand(my_rival_wand)
 my_rival.wand.learn_spell()
+sleep(2)
+print("For your first duel, your opponent is {rival}. Let's Duel".format(rival = my_rival.name))
+sleep(1)
+
+input("Press enter to begin!")
+clear()
+
