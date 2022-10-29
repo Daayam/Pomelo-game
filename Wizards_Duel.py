@@ -201,3 +201,8 @@ print("{name}, you are a {house} in year {year} and have a {wood} wand with a {c
 my_character.bond_wand(my_wand)
 my_wand.loyalty_attribute()
 my_character.wand.learn_spell()
+sleep(5)
+input("")
+print("Now that we have enough information, we can proceed.")
+sleep(2)
+input("")
