@@ -190,4 +190,5 @@ while True: #Choose wand core
         print("Dragon Heartstring or Unicorn Hair. Please check your spelling and try again.")
         continue
 my_wand = Wand(wand_wood, chosen_core)
-
+print("{name}, you are a {house} in year {year} and have a {wood} wand with a {core} core.".format(name = my_name, house = chosen_house, year = chosen_year, wood = wand_wood, core = chosen_core))
+my_character.bond_wand(my_wand)
