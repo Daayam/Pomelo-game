@@ -154,4 +154,25 @@ while True: # Choose house and year
         else:
             print("You are either in 2nd, 3rd, or 4th year. Try again.")
             continue
-    break
+    chosen_house = input("What house are you in? (Gryffindor, Hufflepuff, Ravenclaw, or Slytherin) ").title()
+    if chosen_house == "Gryffindor":
+        house_skill = "Godrick's Might"
+        wand_wood = "Cypress" # brave, bold, self-sacrificing
+        break
+    if chosen_house == "Hufflepuff":
+        house_skill = "Helga's Allegiance"
+        wand_wood = "Rowan" # For the clear deaded and pure hearted
+        break
+    if chosen_house == "Ravenclaw":
+        house_skill = "Rowena's Mastery"
+        wand_wood = "Beech" # Not for narrow minded and intolerant
+        break
+    if chosen_house == "Slytherin":
+        house_skill = "Salazar's Advantage"
+        wand_wood = "Vine" #
+        break
+    else:
+        print("please check your spelling and try again.")
+        continue
+
+    
