@@ -179,4 +179,13 @@ my_character = Character(my_name, chosen_house, chosen_year)
 print("{name}, you are a {house} in year {year}.".format(name = my_name, house = chosen_house, year = chosen_year))
 sleep(2)
 input("")
-    
+
+while True: #Choose wand core
+    chosen_core = input("What core would you like for your wand? (Dragon Heartstring wands are more powerful and Unicorn Hair wands are more loyal) ").title()
+    if chosen_core == "Dragon Heartstring":
+        break
+    if chosen_core == "Unicorn Hair":
+        break
+    else:
+        print("Dragon Heartstring or Unicorn Hair. Please check your spelling and try again.")
+        continue
