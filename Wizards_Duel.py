@@ -221,3 +221,5 @@ sleep(2)
 input("")
 
 my_rival = Character("Kaminari", my_character.house, my_character.year, health = 115)
+rival_wand_attributes = generate_wand(my_rival) # saving wand attributes to variable for creating rival wand
+my_rival_wand = Wand(rival_wand_attributes[0], rival_wand_attributes[1])
