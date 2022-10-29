@@ -143,3 +143,15 @@ while True: # Run tutorial
         print("I did not understand that. Please enter Yes or No")
         continue
 
+#--------------------------
+# Creating Characters
+
+while True: # Choose house and year
+    while True: # year
+        chosen_year = int(input("What year are you in? (2, 3 or 4) "))
+        if chosen_year == 2 or 3 or 4:
+            break
+        else:
+            print("You are either in 2nd, 3rd, or 4th year. Try again.")
+            continue
+    break
